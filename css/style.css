@@ -1,0 +1,201 @@
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+
+  font-family: Lato;
+  color: white;
+}
+ul{
+  list-style-type: none;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+h1 {
+	font-size: 6em;
+	font-weight: 700;
+}
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.btn-lg {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#bodypage1 {
+	text-align: center;
+	padding-top: 200px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.4),
+         0px 18px 23px rgba(0,0,0,0.4);
+}
+
+.section-heading{
+  padding-bottom: 100px;
+}
+
+.jumbotron{
+  padding-top: 300px;
+  padding-bottom: 600px;
+  margin: 0px;
+}
+
+.box{
+  color:black;
+  padding-bottom: 10px;
+  height: 250px
+
+}
+#map {
+        height: 400px;
+        width: 100%;
+}
+.about{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #272727;
+}
+.navbar-inverse {
+    background-color: #272727;
+    border-color: #272727;
+  }
+
+#pAbout{
+  font-size: 1.5em;
+  text-align: justify;
+  padding-bottom:20px;
+  padding-top:20px;
+}
+
+.connects1{
+  text-align: center;
+  color: white;
+  background: #272727;
+}
+
+ #services{
+  padding-top:65px;
+  color: #272727;
+  padding-bottom:65px;
+} 
+
+.parallax {
+    /* The image used */
+    background-image: url("image/headerimg.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hema{
+  background:#272727;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.serviceIcons{
+  color: #272727;
+}
+
+.list{
+  padding-top: 50px;
+}
+
+.horarioEPreço {
+  /* font-size: 200%; */
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				 0px 8px 13px rgba(0,0,0,0.4),
+         0px 18px 23px rgba(0,0,0,0.4);
+         padding-top: 60px;
+         padding-bottom: 60px;
+}
+
+#hemaLis{
+  height: 300px;
+}
+
+#liOne {
+  padding-bottom: 30px;
+  color:#272727;
+  text-align:justify;
+}
+
+#liTwo {
+  color:#272727;
+  text-align:justify;
+}
+
+#liThree{
+  padding-bottom: 30px;
+  color:#272727;
+  text-align:justify;
+}
+
+#liFour{
+  color:#272727;
+  text-align:justify;
+}
+
+#contactos{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#horarioParallax{
+  height: 400px;
+  
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  section#services {
+      /*background-color: black !important;*/
+      padding-bottom: 350px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  
+  #hemaLis{
+    padding-bottom: 450px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  
+  #hemaLis{
+    padding-bottom: 500px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  
+  #hemaLis{
+    padding-bottom: 800px;
+  }
+}
+
+
+
